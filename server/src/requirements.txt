@@ -1,0 +1,8 @@
+keras==2.3.0
+tensorflow
+pandas
+numpy
+sklearn
+flask
+gunicorn
+flask_cors

@@ -1,0 +1,19 @@
+{
+    "functions": {
+    },
+    "hosting": {
+      "site": "api-anurag",
+      "public": "public",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "run": {
+            "serviceId": "api-anurag",
+            "region": "us-east1"
+          }
+        }
+      ]
+    }
+  }
+  
